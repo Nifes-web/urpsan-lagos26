@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ConferenceInfo from './components/ConferenceInfo';
@@ -23,6 +24,7 @@ export default function App() {
         <FinalCTA />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
